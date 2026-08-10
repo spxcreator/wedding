@@ -1,0 +1,54 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&amp;family=Montserrat:wght@400;500&amp;display=swap');
+      .invite   { font-family:'Montserrat', sans-serif; font-size:15px; letter-spacing:6px; fill:#6b625a; font-weight:500; }
+      .names    { font-family:'Cormorant Garamond', serif; font-size:96px; fill:#35302b; }
+      .amp      { font-family:'Cormorant Garamond', serif; font-style:italic; font-size:70px; fill:#bfa05a; }
+      .date     { font-family:'Cormorant Garamond', serif; font-style:italic; font-size:30px; fill:#c08b82; letter-spacing:1px; }
+      .place    { font-family:'Montserrat', sans-serif; font-size:13px; letter-spacing:3px; fill:#6b625a; }
+      .mono     { font-family:'Cormorant Garamond', serif; font-style:italic; font-size:44px; fill:#35302b; }
+    </style>
+    <radialGradient id="g1" cx="15%" cy="12%" r="55%">
+      <stop offset="0%" stop-color="#bfa05a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#bfa05a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="88%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#c08b82" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#c08b82" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdfaf6"/>
+      <stop offset="55%" stop-color="#faf6f0"/>
+      <stop offset="100%" stop-color="#f0dcd6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+
+  <circle cx="120" cy="90" r="220" fill="none" stroke="#bfa05a" stroke-width="0.7" opacity="0.5"/>
+  <circle cx="120" cy="90" r="290" fill="none" stroke="#bfa05a" stroke-width="0.5" opacity="0.35"/>
+  <circle cx="1090" cy="560" r="240" fill="none" stroke="#c08b82" stroke-width="0.7" opacity="0.5"/>
+  <circle cx="1090" cy="560" r="310" fill="none" stroke="#c08b82" stroke-width="0.5" opacity="0.35"/>
+
+  <g transform="translate(600,150)">
+    <circle r="66" fill="none" stroke="#bfa05a" stroke-width="1"/>
+    <circle r="58" fill="none" stroke="#c08b82" stroke-width="0.6"/>
+    <text class="mono" text-anchor="middle" dy="15">С&amp;В</text>
+  </g>
+
+  <text class="invite" x="600" y="255" text-anchor="middle">ПРИГЛАШЕНИЕ НА СВАДЬБУ</text>
+
+  <text x="600" y="365" text-anchor="middle">
+    <tspan class="names">Станислав</tspan>
+    <tspan class="amp" dx="18" dy="-6">&amp;</tspan>
+    <tspan class="names" dx="18" dy="6">Виктория</tspan>
+  </text>
+
+  <line x1="565" y1="410" x2="635" y2="410" stroke="#bfa05a" stroke-width="1"/>
+
+  <text class="date" x="600" y="455" text-anchor="middle">22 августа 2026</text>
+  <text class="place" x="600" y="485" text-anchor="middle">САНКТ-ПЕТЕРБУРГ</text>
+</svg>
